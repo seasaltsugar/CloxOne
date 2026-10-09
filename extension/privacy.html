@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CloxOne · Privacy &amp; credits</title>
+  <link rel="stylesheet" href="css/app.css">
+  <style>
+    body { display: block; }
+    main { max-width: 680px; margin: 0 auto; padding: 40px 20px 60px; }
+    h1 { font-size: 26px; margin: 0 0 4px; }
+    h2 { font-size: 17px; margin: 28px 0 6px; }
+    p, li { color: var(--text); line-height: 1.55; }
+    .lead { font-size: 17px; }
+    .muted { color: var(--muted); }
+    code { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 1px 5px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>CloxOne privacy</h1>
+  <p class="muted">Short version: CloxOne collects nothing and sends nothing.</p>
+
+  <p class="lead">CloxOne makes zero network requests. It has no accounts, no analytics, no tracking, no cookies, no ads and no servers.</p>
+
+  <h2>What stays on your device</h2>
+  <p>Your cities, column order, clock format, colours and settings are saved in your browser's extension storage on this device. Nobody else, including the developer, can see them. Removing the extension deletes them.</p>
+
+  <h2>How you can check</h2>
+  <p>The extension's security policy blocks every outbound connection (<code>connect-src 'none'</code>), and it asks for only one permission: <code>storage</code>. Open Chrome's developer tools on the New Tab page, go to the Network tab, and you will see no requests.</p>
+
+  <h2>Time zones and holidays</h2>
+  <p>Times and daylight-saving rules come from your browser's built-in time zone database. Public holidays are bundled inside the extension and updated with new versions.</p>
+
+  <h2>Tips and Pro</h2>
+  <p>"Tip on Ko-fi" and "Get Pro" open Ko-fi in a normal browser tab, and only when you click them. Ko-fi's own privacy policy applies there. Pro licence keys are checked on your device with a built-in public key; nothing is sent to verify them. The tip reminder counts the days you've used CloxOne on this device only, to decide when to show; that count never leaves your browser.</p>
+
+  <h2>Credits</h2>
+  <ul>
+    <li>Pattern and interface icons: <a href="https://github.com/tabler/tabler-icons" target="_blank" rel="noopener">Tabler Icons</a>, MIT License, © 2020-2026 Paweł Kuna. Licence text ships in <code>LICENSES/tabler-icons.txt</code>.</li>
+    <li>Public holiday data: generated from <a href="https://github.com/vacanza/holidays" target="_blank" rel="noopener">python-holidays</a>, MIT License. Licence text ships in <code>LICENSES/python-holidays.txt</code>.</li>
+  </ul>
+</main>
+</body>
+</html>

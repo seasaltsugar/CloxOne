@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "CloxOne – Time Zones on New Tab",
+  "short_name": "CloxOne",
+  "version": "1.0.0",
+  "description": "See every team member's time at a glance on your New Tab. Private by design: zero network requests.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; object-src 'none'; connect-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; frame-src 'none'; base-uri 'none'; form-action 'none'"
+  }
+}

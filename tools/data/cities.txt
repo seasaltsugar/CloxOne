@@ -1,0 +1,589 @@
+# CloxOne primary city list: major cities by population or economic significance.
+# Format: Name|CountryCode|IANA zone|aliases separated by ;
+# Order matters: the first city listed for a zone is the default match for that zone.
+# Edit here, then run: node tools/build_data.mjs
+#
+# --- North America: United States
+New York|US|America/New_York|NYC;New York City;Manhattan;Brooklyn;Big Apple
+Los Angeles|US|America/Los_Angeles|LA;L.A.;Hollywood
+Chicago|US|America/Chicago|Chi-town;Windy City
+Houston|US|America/Chicago|HTX
+Phoenix|US|America/Phoenix|Arizona
+Philadelphia|US|America/New_York|Philly
+San Antonio|US|America/Chicago
+San Diego|US|America/Los_Angeles
+Dallas|US|America/Chicago|DFW
+Austin|US|America/Chicago|ATX
+San Jose|US|America/Los_Angeles|Silicon Valley
+Fort Worth|US|America/Chicago
+Jacksonville|US|America/New_York
+Columbus|US|America/New_York
+Charlotte|US|America/New_York
+Indianapolis|US|America/Indiana/Indianapolis|Indy
+San Francisco|US|America/Los_Angeles|SF;San Fran;Bay Area;Frisco
+Seattle|US|America/Los_Angeles
+Denver|US|America/Denver|Mile High City
+Washington, D.C.|US|America/New_York|DC;Washington DC;Washington
+Nashville|US|America/Chicago
+Oklahoma City|US|America/Chicago|OKC
+El Paso|US|America/Denver
+Boston|US|America/New_York|Beantown
+Portland|US|America/Los_Angeles|PDX
+Las Vegas|US|America/Los_Angeles|Vegas
+Detroit|US|America/Detroit|Motor City
+Memphis|US|America/Chicago
+Louisville|US|America/Kentucky/Louisville
+Baltimore|US|America/New_York
+Milwaukee|US|America/Chicago
+Albuquerque|US|America/Denver
+Tucson|US|America/Phoenix
+Fresno|US|America/Los_Angeles
+Sacramento|US|America/Los_Angeles
+Kansas City|US|America/Chicago|KC
+Atlanta|US|America/New_York|ATL
+Miami|US|America/New_York
+Raleigh|US|America/New_York|Research Triangle
+Omaha|US|America/Chicago
+Minneapolis|US|America/Chicago|Twin Cities;Saint Paul;St Paul
+Tampa|US|America/New_York
+New Orleans|US|America/Chicago|NOLA
+Cleveland|US|America/New_York
+Pittsburgh|US|America/New_York
+Cincinnati|US|America/New_York
+St. Louis|US|America/Chicago|Saint Louis;STL
+Orlando|US|America/New_York
+Salt Lake City|US|America/Denver|SLC
+Boise|US|America/Boise
+Honolulu|US|Pacific/Honolulu|Hawaii
+Anchorage|US|America/Anchorage|Alaska
+Richmond|US|America/New_York
+Hartford|US|America/New_York
+Buffalo|US|America/New_York
+San Juan|PR|America/Puerto_Rico|Puerto Rico
+# --- North America: Canada
+Toronto|CA|America/Toronto|TO;GTA
+Montreal|CA|America/Toronto|Montréal
+Vancouver|CA|America/Vancouver
+Calgary|CA|America/Edmonton
+Edmonton|CA|America/Edmonton
+Ottawa|CA|America/Toronto
+Winnipeg|CA|America/Winnipeg
+Quebec City|CA|America/Toronto|Québec
+Halifax|CA|America/Halifax|Nova Scotia
+St. John's|CA|America/St_Johns|Newfoundland;Saint John's
+Regina|CA|America/Regina|Saskatchewan
+Saskatoon|CA|America/Regina
+Victoria|CA|America/Vancouver
+# --- North America: Mexico
+Mexico City|MX|America/Mexico_City|CDMX;Ciudad de México;DF
+Guadalajara|MX|America/Mexico_City
+Monterrey|MX|America/Monterrey
+Puebla|MX|America/Mexico_City
+Tijuana|MX|America/Tijuana
+León|MX|America/Mexico_City|Leon
+Ciudad Juárez|MX|America/Ciudad_Juarez|Juarez
+Cancún|MX|America/Cancun|Cancun
+Mérida|MX|America/Merida|Merida
+Querétaro|MX|America/Mexico_City|Queretaro
+Hermosillo|MX|America/Hermosillo
+Chihuahua|MX|America/Chihuahua
+# --- Central America and Caribbean
+Guatemala City|GT|America/Guatemala|Guatemala
+San Salvador|SV|America/El_Salvador|El Salvador
+Tegucigalpa|HN|America/Tegucigalpa|Honduras
+San Pedro Sula|HN|America/Tegucigalpa
+Managua|NI|America/Managua|Nicaragua
+San José|CR|America/Costa_Rica|San Jose Costa Rica;Costa Rica
+Panama City|PA|America/Panama|Panama
+Havana|CU|America/Havana|La Habana;Cuba
+Santo Domingo|DO|America/Santo_Domingo|Dominican Republic
+Port-au-Prince|HT|America/Port-au-Prince|Haiti
+Kingston|JM|America/Jamaica|Jamaica
+Nassau|BS|America/Nassau|Bahamas
+Port of Spain|TT|America/Port_of_Spain|Trinidad
+Bridgetown|BB|America/Barbados|Barbados
+Hamilton|BM|Atlantic/Bermuda|Bermuda
+George Town|KY|America/Cayman|Cayman Islands
+Willemstad|CW|America/Curacao|Curaçao;Curacao
+# --- South America
+São Paulo|BR|America/Sao_Paulo|Sao Paulo;Sampa
+Rio de Janeiro|BR|America/Sao_Paulo|Rio
+Brasília|BR|America/Sao_Paulo|Brasilia
+Salvador|BR|America/Bahia
+Fortaleza|BR|America/Fortaleza
+Belo Horizonte|BR|America/Sao_Paulo|BH
+Manaus|BR|America/Manaus
+Curitiba|BR|America/Sao_Paulo
+Recife|BR|America/Recife
+Porto Alegre|BR|America/Sao_Paulo|POA
+Belém|BR|America/Belem|Belem
+Goiânia|BR|America/Sao_Paulo|Goiania
+Campinas|BR|America/Sao_Paulo
+Florianópolis|BR|America/Sao_Paulo|Florianopolis;Floripa
+Buenos Aires|AR|America/Argentina/Buenos_Aires|BA;Baires;CABA
+Córdoba|AR|America/Argentina/Cordoba|Cordoba
+Rosario|AR|America/Argentina/Cordoba
+Mendoza|AR|America/Argentina/Mendoza
+Santiago|CL|America/Santiago|Santiago de Chile
+Valparaíso|CL|America/Santiago|Valparaiso
+Lima|PE|America/Lima
+Arequipa|PE|America/Lima
+Bogotá|CO|America/Bogota|Bogota
+Medellín|CO|America/Bogota|Medellin
+Cali|CO|America/Bogota
+Barranquilla|CO|America/Bogota
+Cartagena|CO|America/Bogota
+Caracas|VE|America/Caracas
+Maracaibo|VE|America/Caracas
+Quito|EC|America/Guayaquil
+Guayaquil|EC|America/Guayaquil
+La Paz|BO|America/La_Paz
+Santa Cruz de la Sierra|BO|America/La_Paz|Santa Cruz Bolivia
+Asunción|PY|America/Asuncion|Asuncion
+Montevideo|UY|America/Montevideo
+Georgetown|GY|America/Guyana|Guyana
+Paramaribo|SR|America/Paramaribo|Suriname
+# --- Europe: UK and Ireland
+London|GB|Europe/London|LDN;UK;England;Britain
+Manchester|GB|Europe/London
+Birmingham|GB|Europe/London
+Glasgow|GB|Europe/London
+Edinburgh|GB|Europe/London|Scotland
+Leeds|GB|Europe/London
+Liverpool|GB|Europe/London
+Bristol|GB|Europe/London
+Belfast|GB|Europe/London|Northern Ireland
+Cardiff|GB|Europe/London|Wales
+Cambridge|GB|Europe/London
+Oxford|GB|Europe/London
+Dublin|IE|Europe/Dublin|Ireland
+Cork|IE|Europe/Dublin
+# --- Europe: France, Benelux
+Paris|FR|Europe/Paris|France
+Marseille|FR|Europe/Paris|Marseilles
+Lyon|FR|Europe/Paris|Lyons
+Toulouse|FR|Europe/Paris
+Nice|FR|Europe/Paris
+Bordeaux|FR|Europe/Paris
+Lille|FR|Europe/Paris
+Nantes|FR|Europe/Paris
+Strasbourg|FR|Europe/Paris
+Amsterdam|NL|Europe/Amsterdam|Netherlands;Holland
+Rotterdam|NL|Europe/Amsterdam
+The Hague|NL|Europe/Amsterdam|Den Haag
+Utrecht|NL|Europe/Amsterdam
+Eindhoven|NL|Europe/Amsterdam
+Brussels|BE|Europe/Brussels|Bruxelles;Brussel;Belgium
+Antwerp|BE|Europe/Brussels|Antwerpen
+Luxembourg|LU|Europe/Luxembourg
+Monaco|MC|Europe/Monaco|Monte Carlo
+# --- Europe: Germany, Switzerland, Austria
+Berlin|DE|Europe/Berlin|Germany
+Hamburg|DE|Europe/Berlin
+Munich|DE|Europe/Berlin|München;Muenchen
+Cologne|DE|Europe/Berlin|Köln;Koln
+Frankfurt|DE|Europe/Berlin|Frankfurt am Main;FRA
+Stuttgart|DE|Europe/Berlin
+Düsseldorf|DE|Europe/Berlin|Dusseldorf
+Leipzig|DE|Europe/Berlin
+Dortmund|DE|Europe/Berlin
+Essen|DE|Europe/Berlin
+Bremen|DE|Europe/Berlin
+Dresden|DE|Europe/Berlin
+Hanover|DE|Europe/Berlin|Hannover
+Nuremberg|DE|Europe/Berlin|Nürnberg;Nurnberg
+Zurich|CH|Europe/Zurich|Zürich;Switzerland
+Geneva|CH|Europe/Zurich|Genève;Geneve;Genf
+Basel|CH|Europe/Zurich
+Bern|CH|Europe/Zurich|Berne
+Lausanne|CH|Europe/Zurich
+Vienna|AT|Europe/Vienna|Wien;Austria
+Graz|AT|Europe/Vienna
+Salzburg|AT|Europe/Vienna
+# --- Europe: Italy, Spain, Portugal, Malta
+Rome|IT|Europe/Rome|Roma;Italy
+Milan|IT|Europe/Rome|Milano
+Naples|IT|Europe/Rome|Napoli
+Turin|IT|Europe/Rome|Torino
+Florence|IT|Europe/Rome|Firenze
+Bologna|IT|Europe/Rome
+Venice|IT|Europe/Rome|Venezia
+Palermo|IT|Europe/Rome
+Genoa|IT|Europe/Rome|Genova
+Madrid|ES|Europe/Madrid|Spain
+Barcelona|ES|Europe/Madrid|BCN
+Valencia|ES|Europe/Madrid
+Seville|ES|Europe/Madrid|Sevilla
+Málaga|ES|Europe/Madrid|Malaga
+Bilbao|ES|Europe/Madrid
+Zaragoza|ES|Europe/Madrid
+Palma|ES|Europe/Madrid|Palma de Mallorca;Mallorca;Majorca
+Las Palmas|ES|Atlantic/Canary|Gran Canaria;Canary Islands;Tenerife
+Lisbon|PT|Europe/Lisbon|Lisboa;Portugal
+Porto|PT|Europe/Lisbon|Oporto
+Funchal|PT|Atlantic/Madeira|Madeira
+Valletta|MT|Europe/Malta|Malta
+# --- Europe: Nordics and Baltics
+Stockholm|SE|Europe/Stockholm|Sweden
+Gothenburg|SE|Europe/Stockholm|Göteborg;Goteborg
+Malmö|SE|Europe/Stockholm|Malmo
+Oslo|NO|Europe/Oslo|Norway
+Bergen|NO|Europe/Oslo
+Copenhagen|DK|Europe/Copenhagen|København;Kobenhavn;Denmark
+Aarhus|DK|Europe/Copenhagen|Århus
+Helsinki|FI|Europe/Helsinki|Finland
+Reykjavík|IS|Atlantic/Reykjavik|Reykjavik;Iceland
+Tallinn|EE|Europe/Tallinn|Estonia
+Riga|LV|Europe/Riga|Latvia
+Vilnius|LT|Europe/Vilnius|Lithuania
+# --- Europe: Central and Eastern
+Warsaw|PL|Europe/Warsaw|Warszawa;Poland
+Kraków|PL|Europe/Warsaw|Krakow;Cracow
+Wrocław|PL|Europe/Warsaw|Wroclaw
+Łódź|PL|Europe/Warsaw|Lodz
+Poznań|PL|Europe/Warsaw|Poznan
+Gdańsk|PL|Europe/Warsaw|Gdansk
+Prague|CZ|Europe/Prague|Praha;Czechia;Czech Republic
+Brno|CZ|Europe/Prague
+Bratislava|SK|Europe/Bratislava|Slovakia
+Budapest|HU|Europe/Budapest|Hungary
+Bucharest|RO|Europe/Bucharest|București;Bucuresti;Romania
+Cluj-Napoca|RO|Europe/Bucharest|Cluj
+Sofia|BG|Europe/Sofia|Bulgaria
+Athens|GR|Europe/Athens|Athina;Greece
+Thessaloniki|GR|Europe/Athens|Salonica
+Nicosia|CY|Asia/Nicosia|Cyprus
+Limassol|CY|Asia/Nicosia
+Belgrade|RS|Europe/Belgrade|Beograd;Serbia
+Zagreb|HR|Europe/Zagreb|Croatia
+Ljubljana|SI|Europe/Ljubljana|Slovenia
+Sarajevo|BA|Europe/Sarajevo|Bosnia
+Skopje|MK|Europe/Skopje|North Macedonia
+Tirana|AL|Europe/Tirane|Tirane;Albania
+Podgorica|ME|Europe/Podgorica|Montenegro
+Kyiv|UA|Europe/Kyiv|Kiev;Ukraine
+Kharkiv|UA|Europe/Kyiv|Kharkov
+Odesa|UA|Europe/Kyiv|Odessa
+Lviv|UA|Europe/Kyiv|Lvov
+Dnipro|UA|Europe/Kyiv|Dnipropetrovsk
+Chișinău|MD|Europe/Chisinau|Chisinau;Moldova
+Minsk|BY|Europe/Minsk|Belarus
+# --- Europe/Asia: Russia, Turkey, Caucasus
+Moscow|RU|Europe/Moscow|Moskva;Russia
+Saint Petersburg|RU|Europe/Moscow|St Petersburg;St. Petersburg;SPB;Leningrad
+Novosibirsk|RU|Asia/Novosibirsk
+Yekaterinburg|RU|Asia/Yekaterinburg|Ekaterinburg
+Kazan|RU|Europe/Moscow
+Nizhny Novgorod|RU|Europe/Moscow
+Samara|RU|Europe/Samara
+Omsk|RU|Asia/Omsk
+Krasnoyarsk|RU|Asia/Krasnoyarsk
+Irkutsk|RU|Asia/Irkutsk
+Vladivostok|RU|Asia/Vladivostok
+Kaliningrad|RU|Europe/Kaliningrad
+Istanbul|TR|Europe/Istanbul|İstanbul;Constantinople;Turkey;Türkiye
+Ankara|TR|Europe/Istanbul
+Izmir|TR|Europe/Istanbul|İzmir
+Bursa|TR|Europe/Istanbul
+Antalya|TR|Europe/Istanbul
+Tbilisi|GE|Asia/Tbilisi|Georgia country
+Yerevan|AM|Asia/Yerevan|Armenia
+Baku|AZ|Asia/Baku|Azerbaijan
+# --- Middle East
+Dubai|AE|Asia/Dubai|DXB;UAE
+Abu Dhabi|AE|Asia/Dubai
+Sharjah|AE|Asia/Dubai
+Riyadh|SA|Asia/Riyadh|Saudi Arabia;KSA
+Jeddah|SA|Asia/Riyadh|Jidda
+Mecca|SA|Asia/Riyadh|Makkah
+Medina|SA|Asia/Riyadh|Madinah
+Dammam|SA|Asia/Riyadh
+Doha|QA|Asia/Qatar|Qatar
+Kuwait City|KW|Asia/Kuwait|Kuwait
+Manama|BH|Asia/Bahrain|Bahrain
+Muscat|OM|Asia/Muscat|Oman
+Tel Aviv|IL|Asia/Jerusalem|TLV;Tel Aviv-Yafo;Israel
+Jerusalem|IL|Asia/Jerusalem
+Haifa|IL|Asia/Jerusalem
+Amman|JO|Asia/Amman|Jordan
+Beirut|LB|Asia/Beirut|Lebanon
+Damascus|SY|Asia/Damascus|Syria
+Aleppo|SY|Asia/Damascus
+Baghdad|IQ|Asia/Baghdad|Iraq
+Basra|IQ|Asia/Baghdad
+Erbil|IQ|Asia/Baghdad
+Tehran|IR|Asia/Tehran|Teheran;Iran
+Mashhad|IR|Asia/Tehran
+Isfahan|IR|Asia/Tehran|Esfahan
+Tabriz|IR|Asia/Tehran
+Shiraz|IR|Asia/Tehran
+Sanaa|YE|Asia/Aden|Sana'a;Yemen
+Aden|YE|Asia/Aden
+Gaza|PS|Asia/Gaza
+Ramallah|PS|Asia/Hebron|West Bank;Palestine
+# --- Africa: North
+Cairo|EG|Africa/Cairo|Egypt
+Alexandria|EG|Africa/Cairo
+Giza|EG|Africa/Cairo
+Casablanca|MA|Africa/Casablanca|Morocco
+Rabat|MA|Africa/Casablanca
+Marrakesh|MA|Africa/Casablanca|Marrakech
+Fez|MA|Africa/Casablanca|Fes
+Tangier|MA|Africa/Casablanca|Tanger
+Algiers|DZ|Africa/Algiers|Alger;Algeria
+Oran|DZ|Africa/Algiers
+Tunis|TN|Africa/Tunis|Tunisia
+Tripoli|LY|Africa/Tripoli|Libya
+Khartoum|SD|Africa/Khartoum|Sudan
+# --- Africa: West and Central
+Lagos|NG|Africa/Lagos|Nigeria;Eko
+Abuja|NG|Africa/Lagos
+Kano|NG|Africa/Lagos
+Ibadan|NG|Africa/Lagos
+Port Harcourt|NG|Africa/Lagos
+Accra|GH|Africa/Accra|Ghana
+Kumasi|GH|Africa/Accra
+Abidjan|CI|Africa/Abidjan|Ivory Coast;Côte d'Ivoire;Cote d'Ivoire
+Dakar|SN|Africa/Dakar|Senegal
+Bamako|ML|Africa/Bamako|Mali
+Ouagadougou|BF|Africa/Ouagadougou|Burkina Faso
+Niamey|NE|Africa/Niamey|Niger
+Conakry|GN|Africa/Conakry|Guinea
+Freetown|SL|Africa/Freetown|Sierra Leone
+Monrovia|LR|Africa/Monrovia|Liberia
+Lomé|TG|Africa/Lome|Lome;Togo
+Cotonou|BJ|Africa/Porto-Novo|Benin;Porto-Novo
+Nouakchott|MR|Africa/Nouakchott|Mauritania
+Banjul|GM|Africa/Banjul|Gambia
+Bissau|GW|Africa/Bissau|Guinea-Bissau
+Praia|CV|Atlantic/Cape_Verde|Cape Verde;Cabo Verde
+Douala|CM|Africa/Douala|Cameroon
+Yaoundé|CM|Africa/Douala|Yaounde
+Libreville|GA|Africa/Libreville|Gabon
+Malabo|GQ|Africa/Malabo|Equatorial Guinea
+Kinshasa|CD|Africa/Kinshasa|DRC;Congo
+Lubumbashi|CD|Africa/Lubumbashi
+Brazzaville|CG|Africa/Brazzaville|Republic of the Congo
+Bangui|CF|Africa/Bangui|Central African Republic
+N'Djamena|TD|Africa/Ndjamena|Ndjamena;Chad
+Luanda|AO|Africa/Luanda|Angola
+# --- Africa: East and Southern
+Nairobi|KE|Africa/Nairobi|Kenya
+Mombasa|KE|Africa/Nairobi
+Addis Ababa|ET|Africa/Addis_Ababa|Addis;Ethiopia
+Dar es Salaam|TZ|Africa/Dar_es_Salaam|Dar;Tanzania
+Dodoma|TZ|Africa/Dar_es_Salaam
+Kampala|UG|Africa/Kampala|Uganda
+Kigali|RW|Africa/Kigali|Rwanda
+Bujumbura|BI|Africa/Bujumbura|Burundi
+Mogadishu|SO|Africa/Mogadishu|Somalia
+Djibouti|DJ|Africa/Djibouti
+Asmara|ER|Africa/Asmara|Eritrea
+Juba|SS|Africa/Juba|South Sudan
+Johannesburg|ZA|Africa/Johannesburg|Joburg;Jozi;JHB;South Africa
+Cape Town|ZA|Africa/Johannesburg|CPT
+Durban|ZA|Africa/Johannesburg
+Pretoria|ZA|Africa/Johannesburg|Tshwane
+Gqeberha|ZA|Africa/Johannesburg|Port Elizabeth
+Lusaka|ZM|Africa/Lusaka|Zambia
+Harare|ZW|Africa/Harare|Zimbabwe
+Bulawayo|ZW|Africa/Harare
+Maputo|MZ|Africa/Maputo|Mozambique
+Lilongwe|MW|Africa/Blantyre|Malawi
+Blantyre|MW|Africa/Blantyre
+Windhoek|NA|Africa/Windhoek|Namibia
+Gaborone|BW|Africa/Gaborone|Botswana
+Maseru|LS|Africa/Maseru|Lesotho
+Mbabane|SZ|Africa/Mbabane|Eswatini;Swaziland
+Antananarivo|MG|Indian/Antananarivo|Tana;Madagascar
+Port Louis|MU|Indian/Mauritius|Mauritius
+Victoria|SC|Indian/Mahe|Seychelles;Mahé
+# --- South Asia: India
+Mumbai|IN|Asia/Kolkata|Bombay;BOM;India
+Delhi|IN|Asia/Kolkata|New Delhi;NCR;DEL
+Bengaluru|IN|Asia/Kolkata|Bangalore;BLR
+Hyderabad|IN|Asia/Kolkata|HYD;Cyberabad
+Chennai|IN|Asia/Kolkata|Madras
+Kolkata|IN|Asia/Kolkata|Calcutta
+Ahmedabad|IN|Asia/Kolkata|Amdavad
+Pune|IN|Asia/Kolkata|Poona
+Surat|IN|Asia/Kolkata
+Jaipur|IN|Asia/Kolkata|Pink City
+Lucknow|IN|Asia/Kolkata
+Kanpur|IN|Asia/Kolkata|Cawnpore
+Nagpur|IN|Asia/Kolkata
+Indore|IN|Asia/Kolkata
+Bhopal|IN|Asia/Kolkata
+Visakhapatnam|IN|Asia/Kolkata|Vizag
+Patna|IN|Asia/Kolkata
+Vadodara|IN|Asia/Kolkata|Baroda
+Ludhiana|IN|Asia/Kolkata
+Agra|IN|Asia/Kolkata
+Nashik|IN|Asia/Kolkata|Nasik
+Kochi|IN|Asia/Kolkata|Cochin
+Coimbatore|IN|Asia/Kolkata
+Thiruvananthapuram|IN|Asia/Kolkata|Trivandrum
+Chandigarh|IN|Asia/Kolkata
+Gurugram|IN|Asia/Kolkata|Gurgaon
+Noida|IN|Asia/Kolkata
+Bhubaneswar|IN|Asia/Kolkata
+Guwahati|IN|Asia/Kolkata
+Mysuru|IN|Asia/Kolkata|Mysore
+Panaji|IN|Asia/Kolkata|Goa;Panjim
+Madurai|IN|Asia/Kolkata
+Ranchi|IN|Asia/Kolkata
+Raipur|IN|Asia/Kolkata
+Amritsar|IN|Asia/Kolkata
+Varanasi|IN|Asia/Kolkata|Benares;Banaras;Kashi
+# --- South and Central Asia
+Karachi|PK|Asia/Karachi|Pakistan
+Lahore|PK|Asia/Karachi
+Islamabad|PK|Asia/Karachi
+Rawalpindi|PK|Asia/Karachi|Pindi
+Faisalabad|PK|Asia/Karachi
+Peshawar|PK|Asia/Karachi
+Multan|PK|Asia/Karachi
+Quetta|PK|Asia/Karachi
+Dhaka|BD|Asia/Dhaka|Dacca;Bangladesh
+Chittagong|BD|Asia/Dhaka|Chattogram
+Khulna|BD|Asia/Dhaka
+Colombo|LK|Asia/Colombo|Sri Lanka
+Kathmandu|NP|Asia/Kathmandu|Katmandu;Nepal
+Thimphu|BT|Asia/Thimphu|Bhutan
+Malé|MV|Indian/Maldives|Male;Maldives
+Kabul|AF|Asia/Kabul|Afghanistan
+Almaty|KZ|Asia/Almaty|Alma-Ata;Kazakhstan
+Astana|KZ|Asia/Almaty|Nur-Sultan
+Tashkent|UZ|Asia/Tashkent|Uzbekistan
+Samarkand|UZ|Asia/Samarkand
+Bishkek|KG|Asia/Bishkek|Kyrgyzstan
+Dushanbe|TJ|Asia/Dushanbe|Tajikistan
+Ashgabat|TM|Asia/Ashgabat|Turkmenistan
+Ulaanbaatar|MN|Asia/Ulaanbaatar|Ulan Bator;Mongolia
+# --- East Asia: China, Hong Kong, Macau, Taiwan
+Shanghai|CN|Asia/Shanghai|China;PRC
+Beijing|CN|Asia/Shanghai|Peking;BJ
+Shenzhen|CN|Asia/Shanghai
+Guangzhou|CN|Asia/Shanghai|Canton
+Chengdu|CN|Asia/Shanghai
+Chongqing|CN|Asia/Shanghai|Chungking
+Tianjin|CN|Asia/Shanghai|Tientsin
+Wuhan|CN|Asia/Shanghai
+Hangzhou|CN|Asia/Shanghai
+Xi'an|CN|Asia/Shanghai|Xian
+Nanjing|CN|Asia/Shanghai|Nanking
+Suzhou|CN|Asia/Shanghai
+Shenyang|CN|Asia/Shanghai
+Qingdao|CN|Asia/Shanghai|Tsingtao
+Dalian|CN|Asia/Shanghai
+Zhengzhou|CN|Asia/Shanghai
+Changsha|CN|Asia/Shanghai
+Harbin|CN|Asia/Shanghai
+Kunming|CN|Asia/Shanghai
+Jinan|CN|Asia/Shanghai
+Xiamen|CN|Asia/Shanghai|Amoy
+Fuzhou|CN|Asia/Shanghai
+Hefei|CN|Asia/Shanghai
+Ningbo|CN|Asia/Shanghai
+Dongguan|CN|Asia/Shanghai
+Foshan|CN|Asia/Shanghai
+Changchun|CN|Asia/Shanghai
+Shijiazhuang|CN|Asia/Shanghai
+Taiyuan|CN|Asia/Shanghai
+Nanning|CN|Asia/Shanghai
+Guiyang|CN|Asia/Shanghai
+Nanchang|CN|Asia/Shanghai
+Lanzhou|CN|Asia/Shanghai
+Zhuhai|CN|Asia/Shanghai
+Wuxi|CN|Asia/Shanghai
+Ürümqi|CN|Asia/Urumqi|Urumqi;Xinjiang
+Hong Kong|HK|Asia/Hong_Kong|HK;HKG
+Macau|MO|Asia/Macau|Macao
+Taipei|TW|Asia/Taipei|Taiwan
+Kaohsiung|TW|Asia/Taipei
+Taichung|TW|Asia/Taipei
+Hsinchu|TW|Asia/Taipei
+# --- East Asia: Japan, Korea
+Tokyo|JP|Asia/Tokyo|Japan;TYO
+Osaka|JP|Asia/Tokyo
+Yokohama|JP|Asia/Tokyo
+Nagoya|JP|Asia/Tokyo
+Sapporo|JP|Asia/Tokyo
+Fukuoka|JP|Asia/Tokyo
+Kobe|JP|Asia/Tokyo
+Kyoto|JP|Asia/Tokyo
+Kawasaki|JP|Asia/Tokyo
+Hiroshima|JP|Asia/Tokyo
+Sendai|JP|Asia/Tokyo
+Naha|JP|Asia/Tokyo|Okinawa
+Seoul|KR|Asia/Seoul|South Korea;Korea
+Busan|KR|Asia/Seoul|Pusan
+Incheon|KR|Asia/Seoul
+Daegu|KR|Asia/Seoul
+Daejeon|KR|Asia/Seoul
+Gwangju|KR|Asia/Seoul
+Pyongyang|KP|Asia/Pyongyang|North Korea
+# --- Southeast Asia
+Singapore|SG|Asia/Singapore|SG;SIN
+Kuala Lumpur|MY|Asia/Kuala_Lumpur|KL;Malaysia
+Penang|MY|Asia/Kuala_Lumpur|George Town Penang
+Johor Bahru|MY|Asia/Kuala_Lumpur|JB
+Kuching|MY|Asia/Kuching|Sarawak
+Kota Kinabalu|MY|Asia/Kuching|Sabah
+Jakarta|ID|Asia/Jakarta|Indonesia;JKT
+Surabaya|ID|Asia/Jakarta
+Bandung|ID|Asia/Jakarta
+Medan|ID|Asia/Jakarta
+Semarang|ID|Asia/Jakarta
+Yogyakarta|ID|Asia/Jakarta|Jogja;Jogjakarta
+Denpasar|ID|Asia/Makassar|Bali
+Makassar|ID|Asia/Makassar
+Balikpapan|ID|Asia/Makassar
+Jayapura|ID|Asia/Jayapura|Papua
+Bangkok|TH|Asia/Bangkok|Krung Thep;BKK;Thailand
+Chiang Mai|TH|Asia/Bangkok
+Phuket|TH|Asia/Bangkok
+Pattaya|TH|Asia/Bangkok
+Ho Chi Minh City|VN|Asia/Ho_Chi_Minh|Saigon;HCMC;Vietnam
+Hanoi|VN|Asia/Ho_Chi_Minh|Ha Noi
+Da Nang|VN|Asia/Ho_Chi_Minh|Danang
+Haiphong|VN|Asia/Ho_Chi_Minh|Hai Phong
+Manila|PH|Asia/Manila|Metro Manila;Philippines
+Quezon City|PH|Asia/Manila
+Makati|PH|Asia/Manila
+Cebu City|PH|Asia/Manila|Cebu
+Davao City|PH|Asia/Manila|Davao
+Phnom Penh|KH|Asia/Phnom_Penh|Cambodia
+Siem Reap|KH|Asia/Phnom_Penh
+Vientiane|LA|Asia/Vientiane|Laos
+Yangon|MM|Asia/Yangon|Rangoon;Myanmar;Burma
+Mandalay|MM|Asia/Yangon
+Bandar Seri Begawan|BN|Asia/Brunei|Brunei
+Dili|TL|Asia/Dili|Timor-Leste;East Timor
+# --- Oceania
+Sydney|AU|Australia/Sydney|SYD;Australia
+Melbourne|AU|Australia/Melbourne|MEL
+Brisbane|AU|Australia/Brisbane|BNE
+Perth|AU|Australia/Perth
+Adelaide|AU|Australia/Adelaide
+Gold Coast|AU|Australia/Brisbane
+Canberra|AU|Australia/Sydney
+Hobart|AU|Australia/Hobart|Tasmania
+Darwin|AU|Australia/Darwin
+Newcastle|AU|Australia/Sydney
+Cairns|AU|Australia/Brisbane
+Auckland|NZ|Pacific/Auckland|AKL;New Zealand
+Wellington|NZ|Pacific/Auckland
+Christchurch|NZ|Pacific/Auckland
+Queenstown|NZ|Pacific/Auckland
+Suva|FJ|Pacific/Fiji|Fiji
+Port Moresby|PG|Pacific/Port_Moresby|PNG;Papua New Guinea
+Nouméa|NC|Pacific/Noumea|Noumea;New Caledonia
+Papeete|PF|Pacific/Tahiti|Tahiti
+Apia|WS|Pacific/Apia|Samoa
+Nukuʻalofa|TO|Pacific/Tongatapu|Nukualofa;Tonga
+Hagåtña|GU|Pacific/Guam|Guam;Hagatna
+Port Vila|VU|Pacific/Efate|Vanuatu
+Honiara|SB|Pacific/Guadalcanal|Solomon Islands
+# --- Universal
+UTC|ZZ|UTC|GMT;Zulu;Coordinated Universal Time;Universal
